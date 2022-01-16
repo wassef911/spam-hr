@@ -4,14 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "fetch": "node src/index.js"
+    "taych_cv": "node src/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "csv-writer": "^1.6.0",
-    "dotenv": "^10.0.0",
-    "google-auth-library": "^7.3.0",
-    "googleapis": "^82.0.0"
+    "@sendgrid/mail": "^7.6.0",
+    "dotenv": "^10.0.0"
   }
 }

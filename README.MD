@@ -28,13 +28,11 @@ If the installation was successful, you should be able to run the following comm
 
 ## Configure behaviour
 
-    $ cd spam-hr
     $ touch .env
 
     AND
 
     $ gedit src/in/data.json
-    $ touch .env
 
 ## Running the script
 
